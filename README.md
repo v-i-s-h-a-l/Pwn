@@ -1,4 +1,4 @@
-# Glyph
+# Pwn
 
 > Pilot your Mac with a game controller. Talk to it. Make work feel like play.
 
@@ -6,7 +6,7 @@
 
 Most of what I do at a Mac all day isn't typing. It's switching apps, jumping between terminal panes, navigating browser tabs, asking an LLM something, dictating a quick message, picking from a list of choices. The keyboard and trackpad are doing a lot of work for what could be a few buttons and a stick.
 
-**Glyph** is an experiment: drive your Mac with a game controller. Move between windows and panes. Switch apps. Push a trigger to talk to an agent — dictate, ask a question, pick from options it offers. Make it feel like playing a game while you're actually getting work done.
+**Pwn** is an experiment: drive your Mac with a game controller. Move between windows and panes. Switch apps. Push a trigger to talk to an agent — dictate, ask a question, pick from options it offers. Make it feel like playing a game while you're actually getting work done.
 
 The primary target is the DualSense (because of its haptics, adaptive triggers, and lightbar — affordances begging to be used semantically). But anything macOS recognizes as a HID — Xbox controller, MFi pad, flight stick, MIDI macro pad — should work once bindings are remappable.
 
@@ -18,7 +18,7 @@ The primary target is the DualSense (because of its haptics, adaptive triggers, 
 
 ## Where the name comes from
 
-In fighting games, an input notation like `↓↘→+P` is called a **glyph** — a symbolic sequence that resolves into an action. That's the model: any controller produces symbolic inputs, which get curated, mapped, and resolved into OS actions. Device-agnostic by design.
+**Pwn** — gamer/hacker l33t-speak for "own," coined by a mistype in the early 2000s and never let go of by either tribe since. To pwn something is to dominate it, take it over, make it yours. That's the project: pwn your Mac with a controller. The fact that gamers and devs have been using the same word with the same meaning for two decades is the amalgamation Pwn is aiming at.
 
 ## What v0 wants to do (narrow on purpose)
 
